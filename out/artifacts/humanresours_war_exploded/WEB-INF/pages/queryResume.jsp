@@ -13,10 +13,12 @@
 <html>
 <head>
     <base href="<%=basePath%>"/>
-    <title>查看简历</title>
+    <title>管理员查看简历</title>
 </head>
 <body>
-
+<a href="admin.jsp">返回</a>
+按钮
+是否同意面试
 </body>
 </html>
 

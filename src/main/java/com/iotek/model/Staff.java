@@ -5,5 +5,7 @@ package com.iotek.model;
  */
 //员工
 public class Staff {
+    private int s_id;
+    private int s_peopleNumber;//人数
 
 }

@@ -19,7 +19,7 @@
 <div style="padding-top: 5%;padding-left: 35%;padding-right: 35%">
 <fieldset style="padding-left: 20%;background: aquamarine">
 <legend>用户登陆</legend><br/>
-<form action="/loginServlet" method="post">
+<form action="loginServlet" method="post">
     <table>
         <tr>
             <td>用户名:</td>

@@ -16,7 +16,9 @@
     <title>管理员页面</title>
 </head>
 <body>
-
+<a href="addRecruit">发布招聘信息</a>
+对招聘信息增删改查
+<a href="queryResume">查看已投简历</a>
 </body>
 </html>
 

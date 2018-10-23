@@ -26,24 +26,32 @@ public class UserController {
     public String register(){
         return "register";
     }
+    @RequestMapping("/queryRecruit")//查看招聘信息
+    public String queryRecruitment(){
+        return "queryRecruit";
+    }
+    @RequestMapping("admin")
+    public String admin(){
+        return "admin";
+    }
     @RequestMapping(value = "/loginServlet")
     public String loginServlet(HttpServletRequest request, HttpServletResponse response, HttpSession session) throws Exception {
         if (request.getParameter("name").equals("admin") & request.getParameter("pass").equals("admin")) {
             return "admin";
         }
-        User user = new User(request.getParameter("name"), request.getParameter("pass"));
+        String name=request.getParameter("name");
+        String pass=request.getParameter("pass");
+        User user = userService.queryUserByNameAndPass(new User(name,pass));
         String log = request.getParameter("log");
-        if (userService.queryUserByNameAndPass(user) != null) {
-            session.setAttribute("name", user.getU_name());
-            session.setAttribute("uid", userService.queryUserByNameAndPass(user).getU_id());
-            session.setAttribute("user", userService.queryUserByNameAndPass(user));
+        if (user != null) {
+            session.setAttribute("user", user);
             if ("on".equals(log)) {
                 Cookie cookie = new Cookie("name", user.getU_name());
                 cookie.setMaxAge(60 * 60 * 24 * 30);
                 response.addCookie(cookie);
             }
             request.setAttribute("msg", "登陆成功");
-            return "index";
+            return "../../index.jsp";
         } else {
             request.setAttribute("msg", "登陆失败");
             return "login";
@@ -66,4 +74,19 @@ public class UserController {
             return "register";
         }
     }
+    @RequestMapping("/applyPositionServlet")//申请职位
+    public String applyPositionServlet(HttpServletRequest request,HttpServletResponse response)throws Exception{
+        //获取用户
+        //获取简历
+        /*if(user==null){
+            return "login";
+        }else if (resume==null){
+            return "writerResume";
+        }*/
+        //修改简历r_deliver为已投递
+        return "queryRecruit";//申请成功返回招聘信息页面
+    }
+
+
+
 }
