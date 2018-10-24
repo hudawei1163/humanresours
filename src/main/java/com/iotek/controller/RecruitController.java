@@ -59,7 +59,7 @@ public class RecruitController {
     }
     @RequestMapping(value = "/deleteRecruitServlet")
     public String deleteRecruitServlet(HttpServletRequest request) throws Exception{
-        if(recruitService.addRecruit(recruit)){
+        if(recruitService.addRecruit()){
             request.setAttribute("msg","删除成功");
             return "queryRecruit";
         }else{
