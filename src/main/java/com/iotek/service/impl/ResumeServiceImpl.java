@@ -56,4 +56,15 @@ public class ResumeServiceImpl implements ResumeService {
         }
         return resumeDao.queryResumeByName(r_name);
     }
+
+
+    @Override
+    public List<Resume> queryAllResumeByName(String u_name) {
+        if (u_name==null){
+            return null;
+        }
+        return resumeDao.queryAllResumeByName(u_name);
+    }
+
+
 }

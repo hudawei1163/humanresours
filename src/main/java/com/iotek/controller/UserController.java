@@ -1,5 +1,6 @@
 package com.iotek.controller;
 
+import com.iotek.model.Resume;
 import com.iotek.model.User;
 import com.iotek.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -26,10 +27,6 @@ public class UserController {
     public String register(){
         return "register";
     }
-    @RequestMapping("/queryRecruit")//查看招聘信息
-    public String queryRecruitment(){
-        return "queryRecruit";
-    }
     @RequestMapping("admin")
     public String admin(){
         return "admin";
@@ -51,14 +48,14 @@ public class UserController {
                 response.addCookie(cookie);
             }
             request.setAttribute("msg", "登陆成功");
-            return "../../index.jsp";
+            return "../../index";
         } else {
             request.setAttribute("msg", "登陆失败");
             return "login";
         }
     }
     @RequestMapping("/registerServlet")
-    public String registerServlet(HttpServletRequest request, HttpServletResponse response, HttpSession session) throws Exception {
+    public String registerServlet(HttpServletRequest request) throws Exception {
         User user1=userService.queryUserByName(request.getParameter("name"));
         if(user1==null){
             User user = new User(request.getParameter("name"),request.getParameter("pass"),request.getParameter("sex"),request.getParameter("phone"));
@@ -74,18 +71,7 @@ public class UserController {
             return "register";
         }
     }
-    @RequestMapping("/applyPositionServlet")//申请职位
-    public String applyPositionServlet(HttpServletRequest request,HttpServletResponse response)throws Exception{
-        //获取用户
-        //获取简历
-        /*if(user==null){
-            return "login";
-        }else if (resume==null){
-            return "writerResume";
-        }*/
-        //修改简历r_deliver为已投递
-        return "queryRecruit";//申请成功返回招聘信息页面
-    }
+
 
 
 

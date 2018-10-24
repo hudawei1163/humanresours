@@ -7,4 +7,7 @@
     <select id="queryAllResume" resultType="com.iotek.model.Resume"></select>
     <select id="queryResumeById" resultType="com.iotek.model.Resume"></select>
     <select id="queryResumeByName" resultType="com.iotek.model.Resume"></select>
+    <select id="queryAllResumeByName" resultType="com.iotek.model.Resume"></select>
+
+
 </mapper>

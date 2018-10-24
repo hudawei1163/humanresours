@@ -15,4 +15,5 @@ public interface ResumeService {
     List<Resume> queryAllResume();
     Resume queryResumeById(int r_id);
     Resume queryResumeByName(String r_name);
+    List<Resume> queryAllResumeByName(String u_name);
 }

@@ -16,6 +16,12 @@
     <title>用户查看招聘信息</title>
 </head>
 <body>
+if(user.getName().equals("admin")&&user.getPass().equals("admin")){
+    判断是否为管理员    管理员显示
+<a href="addRecruitServlet">填写招聘信息</a>
+<a href="updateRecruitServlet">修改招聘信息</a>
+<a href="deleteRecruitServlet">删除招聘信息</a>
+}
 <a href="../../index.jsp">首页</a>
 <a href="writerResume">填写简历</a>
 <fieldset style="padding-left: 10%;background: pink">
@@ -23,7 +29,7 @@
     <form action="applyPositionServlet" method="post">
         <table>
             <tr>
-                <input type="button"value="申请职位"/>
+                <input type="button"value="投递简历"/>
             </tr>
             <tr>
                 <td>职　　位</td>

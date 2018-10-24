@@ -5,9 +5,11 @@ package com.iotek.model;
  */
 //职位
 public class Position {
-    private int p_id;
-    private int d_id;//部门id
-    private String p_manager;//经理
-    private String p_groupLeader;//组长
-    private String p_staff;//员工
+    private int p_id;//职位id
+    //private int d_id;//部门id
+    private String d_name;//部门名称
+    private String p_name;//职位名称
+    /*p_manager;//经理
+    p_groupLeader;//组长
+    p_staff;//员工*/
 }

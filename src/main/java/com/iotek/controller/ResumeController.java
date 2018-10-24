@@ -1,6 +1,7 @@
 package com.iotek.controller;
 
 import com.iotek.model.Resume;
+import com.iotek.model.User;
 import com.iotek.service.ResumeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by lenovo on 2018/10/20.
@@ -21,16 +25,16 @@ public class ResumeController {
     public String writerResume(){
         return "writerResume";
     }
-    @RequestMapping("/queryResume")
-    public String queryResume(){
-        return "queryResume";
-    }
 
-
-
+    //写简历
     @RequestMapping(value = "/writerResumeServlet")
     public String loginServlet(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        String  r_name = request.getParameter("r_name");//姓名
+        User user = (User) request.getSession().getAttribute("user");
+        if (user == null) {
+            return "login";
+        }
+        String r_name = request.getParameter("r_name");//简历名
+        String u_name = user.getU_name();//姓名
         String r_education=request.getParameter("r_education");//学历
         String r_sex=request.getParameter("r_sex");//性别
         String r_birthplace=request.getParameter("r_birthplace");// 籍贯
@@ -44,14 +48,67 @@ public class ResumeController {
         String r_workExperience=request.getParameter("r_workExperience"); // 工作经验
         String r_deliver = "未投";//是否投递
         String r_read = "未读";//未读已读
-        boolean blag = resumeService.addResume(new Resume(r_name,r_education,r_sex,r_birthplace,r_phone,
+        boolean blag = resumeService.addResume(new Resume(r_name,u_name,r_education,r_sex,r_birthplace,r_phone,
                 r_mail,r_birthdate,r_status,r_idNumber,r_abode,r_jobIntention,r_workExperience,r_deliver,r_read));
         if (blag) {
             request.setAttribute("msg", "保存成功");
-            return "index";
+            return "queryRecruit";
         } else {
             request.setAttribute("msg", "保存失败");
-            return "login";
+            return "writerResume";
         }
     }
+    //管理员查看简历
+    @RequestMapping("/queryResumeServlet")
+    public String queryResume(HttpServletRequest request){
+        List<Resume> resumes=resumeService.queryAllResume();//获取简历
+        if(resumes==null){
+            request.setAttribute("msg", "无人投递简历");
+            return "admin";
+        }
+        List<Resume> resumes1=new ArrayList<>();
+        for (Resume resume:resumes) {
+            if("未读".equals(resume.getR_deliver())){
+                resumes1.add(resume);
+            }
+        }
+        request.setAttribute("resumes",resumes1);
+        return "queryResume";
+    }
+
+    //用户查看简历
+    @RequestMapping("/queryUserResumeServlet")
+    public String queryUserResume(HttpServletRequest request){
+        User user = (User) request.getSession().getAttribute("user");
+        List<Resume> resumes=resumeService.queryAllResumeByName(user.getU_name());//获取简历
+        request.setAttribute("resumes",resumes);
+        return "queryUserResume";
+    }
+
+    //投递简历
+    @RequestMapping("/applyPositionServlet")
+    public String applyPositionServlet(HttpServletRequest request)throws Exception{
+        User user = (User) request.getSession().getAttribute("user");//获取用户
+        if(user==null){
+            return "login";
+        }
+        Resume resume=resumeService.queryResumeByName(request.getParameter("r_name"));//获取简历
+        if (resume==null){
+            return "writerResume";
+        }
+        String r_deliver = "已投";//投递简历
+        //修改简历r_deliver为已投递
+        boolean blag=resumeService.updateResume(new Resume(resume.getR_name(),resume.getU_name(),resume.getR_education(),
+                resume.getR_sex(),resume.getR_birthplace(),resume.getR_phone(), resume.getR_mail(),resume.getR_birthdate(),
+                resume.getR_status(),resume.getR_idNumber(),resume.getR_abode(),resume.getR_jobIntention(),
+                resume.getR_workExperience(),r_deliver,resume.getR_read()));
+        if (blag) {
+            request.setAttribute("msg", "申请成功");
+            return "../../index";//申请成功返回主页
+        } else {
+            request.setAttribute("msg", "申请失败");
+            return "queryRecruit";//申请失败返回招聘信息页面
+        }
+    }
+
 }

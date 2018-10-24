@@ -8,7 +8,8 @@ import java.io.Serializable;
 //简历
 public class Resume implements Serializable {
     private int r_id;
-    private String r_name;//姓名
+    private String r_name;
+    private String u_name;//姓名
     private String r_education;//学历
     private String r_sex;//性别
     private String r_birthplace;// 籍贯
@@ -23,8 +24,9 @@ public class Resume implements Serializable {
     private String r_deliver; //是否投递
     private String r_read;//未读和已读
 
-    public Resume(String r_name, String r_education, String r_sex, String r_birthplace, String r_phone, String r_mail, String r_birthdate, String r_status, String r_idNumber, String r_abode, String r_jobIntention, String r_workExperience, String r_deliver, String r_read) {
+    public Resume(String r_name, String u_name, String r_education, String r_sex, String r_birthplace, String r_phone, String r_mail, String r_birthdate, String r_status, String r_idNumber, String r_abode, String r_jobIntention, String r_workExperience, String r_deliver, String r_read) {
         this.r_name = r_name;
+        this.u_name = u_name;
         this.r_education = r_education;
         this.r_sex = r_sex;
         this.r_birthplace = r_birthplace;
@@ -54,6 +56,14 @@ public class Resume implements Serializable {
 
     public void setR_name(String r_name) {
         this.r_name = r_name;
+    }
+
+    public String getU_name() {
+        return u_name;
+    }
+
+    public void setU_name(String u_name) {
+        this.u_name = u_name;
     }
 
     public String getR_education() {

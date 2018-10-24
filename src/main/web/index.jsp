@@ -17,8 +17,8 @@
 </head>
 <body>
 <a href="admin">管理员页面</a>
-<a href="queryRecruit">招聘信息</a>
-<a href="writerResume">填写简历</a>
+<a href="queryRecruitServlet">招聘信息</a>
+<a href="queryUserResumeServlet">我的简历</a>
 <c:if test="${sessionScope.user == null}">
     <a href="login" class="a">亲,请登录</a>
     | <a href="register">免费注册</a>
@@ -26,9 +26,6 @@
 <%--<c:if test="${sessionScope.user != null}">
     ${"★欢迎"+sessionScope.user.name+"用户★"}
 </c:if>--%>
-
-
-
 
 </body>
 </html>
