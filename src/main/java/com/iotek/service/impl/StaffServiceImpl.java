@@ -26,11 +26,6 @@ public class StaffServiceImpl implements StaffService {
     }
 
     @Override
-    public boolean deleteStaff(Staff staff) {
-        return staffDao.deleteStaff(staff);
-    }
-
-    @Override
     public List<Staff> queryAllStaff() {
         return staffDao.queryAllStaff();
     }

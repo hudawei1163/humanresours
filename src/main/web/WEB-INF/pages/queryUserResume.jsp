@@ -17,9 +17,9 @@
 </head>
 <body>
 
-<a href="writerResume">填写简历</a>
+<a href="addResume">填写简历</a>
 <a href="updateResume">修改简历</a>
-<a href="applyPositionServlet">投递简历</a>
+<a href="deliverResumeServlet">投递简历</a>
 </body>
 </html>
 

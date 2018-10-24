@@ -1,10 +1,12 @@
 package com.iotek.model;
 
+import java.io.Serializable;
+
 /**
  * Created by lenovo on 2018/10/19.
  */
 //招聘信息
-public class Recruit {
+public class Recruit implements Serializable{
     private int r_id;
     private String p_id;//职位
     private String r_workExperience;//工作经验

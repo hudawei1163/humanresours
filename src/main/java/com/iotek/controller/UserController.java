@@ -1,6 +1,5 @@
 package com.iotek.controller;
 
-import com.iotek.model.Resume;
 import com.iotek.model.User;
 import com.iotek.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -27,7 +26,7 @@ public class UserController {
     public String register(){
         return "register";
     }
-    @RequestMapping("admin")
+    @RequestMapping("/admin")
     public String admin(){
         return "admin";
     }
@@ -71,8 +70,6 @@ public class UserController {
             return "register";
         }
     }
-
-
 
 
 }

@@ -16,12 +16,12 @@
     <title>员工主页</title>
 </head>
 <body>
-<a href="">修改个人信息</a>
-<a href="">培训</a>
-<a href="">奖惩</a>
+<a href="updateStaff">修改个人信息</a>
+<a href="queryCultivateServlet">查看培训</a>
+<a href="queryRewardsServlet">查看奖惩</a>
 <a href="queryAllstaff">查看员工表</a>
-<a href="">打卡</a>
-<a href="">我的薪资 查看</a>
+<a href="addInterviewServlet">打卡</a>
+<a href="querySalaryServlet">查看薪资</a>
 </body>
 </html>
 

@@ -1,10 +1,12 @@
 package com.iotek.model;
 
+import java.io.Serializable;
+
 /**
  * Created by lenovo on 2018/10/19.
  */
 //职位
-public class Position {
+public class Position implements Serializable{
     private int p_id;//职位id
     //private int d_id;//部门id
     private String d_name;//部门名称

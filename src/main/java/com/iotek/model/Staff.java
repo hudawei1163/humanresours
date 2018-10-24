@@ -1,10 +1,12 @@
 package com.iotek.model;
 
+import java.io.Serializable;
+
 /**
  * Created by lenovo on 2018/10/19.
  */
 //员工
-public class Staff {
+public class Staff implements Serializable{
     private int s_id;
     private String s_phone;
     private String s_pass;

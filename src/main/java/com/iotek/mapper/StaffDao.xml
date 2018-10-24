@@ -3,7 +3,6 @@
 <mapper namespace="com.iotek.dao.StaffDao">
     <insert id="addStaff"></insert>
     <update id="updateStaff"></update>
-    <delete id="deleteStaff"></delete>
     <select id="queryAllStaff" resultType="com.iotek.model.Staff"></select>
     <select id="queryStaff" resultType="com.iotek.model.Staff"></select>
 </mapper>

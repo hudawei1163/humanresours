@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,13 +20,16 @@ import java.util.List;
 public class ResumeController {
     @Resource
     private ResumeService resumeService;
-    @RequestMapping("/writerResume")
-    public String writerResume(){
-        return "writerResume";
+    @RequestMapping("/addResume")
+    public String addResume(){
+        return "addResume";
     }
-
+    @RequestMapping("/updateResume")
+    public String updateResume(){
+        return "updateResume";
+    }
     //写简历
-    @RequestMapping(value = "/writerResumeServlet")
+    @RequestMapping(value = "/addResumeServlet")
     public String loginServlet(HttpServletRequest request, HttpServletResponse response) throws Exception {
         User user = (User) request.getSession().getAttribute("user");
         if (user == null) {
@@ -55,7 +57,31 @@ public class ResumeController {
             return "queryRecruit";
         } else {
             request.setAttribute("msg", "保存失败");
-            return "writerResume";
+            return "addResume";
+        }
+    }
+    //修改简历
+    @RequestMapping(value = "/updateResumeServlet")
+    public String updateResumeServlet(HttpServletRequest request)throws Exception{
+        Resume resume = (Resume) request.getAttribute("recruit");//获取修改的简历
+        if(resumeService.updateResume(resume)){
+            request.setAttribute("msg","修改成功");
+            return "queryRecruit";
+        }else{
+            request.setAttribute("msg","修改失败");
+            return "queryRecruit";
+        }
+    }
+    //删除简历
+    @RequestMapping(value = "/deleteRecruitServlet")
+    public String deleteRecruitServlet(HttpServletRequest request) throws Exception{
+        Resume resume = (Resume) request.getAttribute("recruit");//获取删除对象
+        if(resumeService.deleteResume(resume)){
+            request.setAttribute("msg","删除成功");
+            return "queryRecruit";
+        }else{
+            request.setAttribute("msg","删除失败");
+            return "queryRecruit";
         }
     }
     //管理员查看简历
@@ -64,7 +90,6 @@ public class ResumeController {
         List<Resume> resumes=resumeService.queryAllResume();//获取简历
         if(resumes==null){
             request.setAttribute("msg", "无人投递简历");
-            return "admin";
         }
         List<Resume> resumes1=new ArrayList<>();
         for (Resume resume:resumes) {
@@ -86,15 +111,15 @@ public class ResumeController {
     }
 
     //投递简历
-    @RequestMapping("/applyPositionServlet")
-    public String applyPositionServlet(HttpServletRequest request)throws Exception{
+    @RequestMapping("/deliverResumeServlet")
+    public String deliverResumeServlet(HttpServletRequest request)throws Exception{
         User user = (User) request.getSession().getAttribute("user");//获取用户
         if(user==null){
             return "login";
         }
         Resume resume=resumeService.queryResumeByName(request.getParameter("r_name"));//获取简历
         if (resume==null){
-            return "writerResume";
+            return "addResume";
         }
         String r_deliver = "已投";//投递简历
         //修改简历r_deliver为已投递
@@ -103,10 +128,10 @@ public class ResumeController {
                 resume.getR_status(),resume.getR_idNumber(),resume.getR_abode(),resume.getR_jobIntention(),
                 resume.getR_workExperience(),r_deliver,resume.getR_read()));
         if (blag) {
-            request.setAttribute("msg", "申请成功");
+            request.setAttribute("msg", "投递成功");
             return "../../index";//申请成功返回主页
         } else {
-            request.setAttribute("msg", "申请失败");
+            request.setAttribute("msg", "投递失败");
             return "queryRecruit";//申请失败返回招聘信息页面
         }
     }

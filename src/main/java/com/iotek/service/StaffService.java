@@ -10,7 +10,6 @@ import java.util.List;
 public interface StaffService {
     boolean addStaff(Staff staff);
     boolean updateStaff(Staff staff);
-    boolean deleteStaff(Staff staff);
     List<Staff> queryAllStaff();
     Staff queryStaff(Staff staff);
 }

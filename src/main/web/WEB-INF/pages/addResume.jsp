@@ -20,7 +20,7 @@
 <div style="padding-top: 5%;padding-left: 35%;padding-right: 35%">
     <fieldset style="padding-left: 20%;background: yellow">
         <legend>个人简历</legend><br/>
-        <form action="writerResumeServlet" method="post">
+        <form action="addResumeServlet" method="post">
             <table>
                 <tr>
                     <td>姓　　名:</td>

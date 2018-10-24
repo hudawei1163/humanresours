@@ -16,19 +16,51 @@
     <title>管理员页面</title>
 </head>
 <body>
-<a href="addRecruitServlet">填写招聘信息</a>
-<a href="updateRecruitServlet">修改招聘信息</a>
+<a href="addRecruit">填写招聘信息</a>
+<a href="updateRecruit">修改招聘信息</a>
 <a href="deleteRecruitServlet">删除招聘信息</a>
+<a href="queryRecruitServlet">查看招聘信息</a>
+
 <a href="queryResumeServlet">查看已投简历</a>
-收取简历-->查阅简历-->做标记（是否已阅）-->通知面试、并记录面试时间-->
-通知安排员工进行面试-->录用(动态的将简历信息取出并存入员工数据表)
-<a href="">部门增删改查</a>
-<a href="">职位增删改查</a>
-<a href="">员工增删改查</a>
-<a href="">考勤查</a>
+
+<a href="addInterview">邀请面试</a>
+<a href="updateInterview">修改面试</a>
+<a href="deleteInterviewServlet">删除面试</a>
+<a href="queryInterviewServlet">查看面试游客</a>
+
+<a href="addDepartment">增加部门</a>
+<a href="updateDepartment">修改部门</a>
+<a href="deleteDepartmentServlet">删除部门</a>
+<a href="queryDepartmentServlet">查看部门</a>
+
+<a href="addPosition">增加职位</a>
+<a href="updatePosition">修改职位</a>
+<a href="deletePositionServlet">删除职位</a>
+<a href="queryPositionServlet">查看职位</a>
+
+<a href="addStaff">增加员工</a>
+<a href="updateStaff">修改员工</a>
+<a href="queryStaffServlet">查看员工</a>
+
+<a href="queryAttendanceServlet">考勤查</a>
+
 <a href="">薪资增删改查</a>
+<a href="addSalary">增加薪资</a>
+<a href="updateSalary">修改薪资</a>
+<a href="deleteSalaryServlet">删除薪资</a>
+<a href="querySalaryServlet">查看薪资</a>
+
 <a href="">培训增删改查</a>
+<a href="addCultivate">增加培训</a>
+<a href="updateCultivate">修改培训</a>
+<a href="deleteCultivateServlet">删除培训</a>
+<a href="queryCultivateServlet">查看培训</a>
+
 <a href="">奖惩增改查</a>
+<a href="addRewards">增加奖惩</a>
+<a href="updateRewards">修改奖惩</a>
+<a href="queryRewardsServlet">查看奖惩</a>
+
 </body>
 </html>
 
