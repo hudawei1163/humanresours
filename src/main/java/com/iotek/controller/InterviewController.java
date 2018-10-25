@@ -1,5 +1,6 @@
 package com.iotek.controller;
 
+import com.iotek.model.Interview;
 import com.iotek.service.InterviewService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,7 +27,18 @@ public class InterviewController {
     //增加面试
     @RequestMapping(value = "/addInterviewServlet")
     public String addInterviewServlet(HttpServletRequest request)throws Exception{
-        return "admin";
+        String r_name=request.getParameter("r_name");;//简历名
+        String i_department=request.getParameter("i_department");;//部门
+        String p_id=request.getParameter("p_id");;//招聘职位
+        String i_date=request.getParameter("i_date");; //面试日期
+        Interview interview = new Interview(r_name,i_department,p_id,i_date);
+        if(interviewService.addInterview(interview)){
+            request.setAttribute("msg","添加成功");
+            return "admin";
+        }else{
+            request.setAttribute("msg","添加失败");
+            return "addRecruit";
+        }
     }
     //删除面试
     @RequestMapping(value = "/deleteInterviewServlet")

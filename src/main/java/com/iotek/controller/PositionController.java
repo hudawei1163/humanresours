@@ -1,5 +1,6 @@
 package com.iotek.controller;
 
+import com.iotek.model.Position;
 import com.iotek.service.PositionService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,7 +27,15 @@ public class PositionController {
     //增加职位
     @RequestMapping(value = "/addPositionServlet")
     public String addPositionServlet(HttpServletRequest request)throws Exception{
-        return "admin";
+        String p_name=request.getParameter("p_name");//职位名称
+        Position position = new Position(p_name);
+        if(positionService.addPosition(position)){
+            request.setAttribute("msg","添加成功");
+            return "admin";
+        }else{
+            request.setAttribute("msg","添加失败");
+            return "addRecruit";
+        }
     }
     //删除职位
     @RequestMapping(value = "/deletePositionServlet")
