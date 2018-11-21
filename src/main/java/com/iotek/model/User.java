@@ -10,9 +10,6 @@ public class User implements Serializable{
     private int u_id;
     private String u_name;
     private String u_pass;
-    private String u_sex;
-    private String u_phone;
-
     public User() {
     }
 
@@ -21,11 +18,10 @@ public class User implements Serializable{
         this.u_pass = u_pass;
     }
 
-    public User(String u_name, String u_pass, String u_sex, String u_phone) {
+    public User(int u_id, String u_name, String u_pass) {
+        this.u_id = u_id;
         this.u_name = u_name;
         this.u_pass = u_pass;
-        this.u_sex = u_sex;
-        this.u_phone = u_phone;
     }
 
     public int getU_id() {
@@ -51,19 +47,12 @@ public class User implements Serializable{
         this.u_pass = u_pass;
     }
 
-    public String getU_sex() {
-        return u_sex;
-    }
-
-    public void setU_sex(String u_sex) {
-        this.u_sex = u_sex;
-    }
-
-    public String getU_phone() {
-        return u_phone;
-    }
-
-    public void setU_phone(String u_phone) {
-        this.u_phone = u_phone;
+    @Override
+    public String toString() {
+        return "User{" +
+                "u_id=" + u_id +
+                ", u_name='" + u_name + '\'' +
+                ", u_pass='" + u_pass + '\'' +
+                '}';
     }
 }

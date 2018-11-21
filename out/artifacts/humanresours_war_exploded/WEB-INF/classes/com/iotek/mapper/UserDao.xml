@@ -4,27 +4,16 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.iotek.dao.UserDao">
     <insert id="addUser">
-        insert into user(name, pass) values
-        <foreach collection="users" item="user" separator=",">
-            (#{user.name},#{user.pass})
-        </foreach>
+        INSERT INTO T_USER(u_id,u_name,u_pass)
+        VALUES(SEQ_U_ID.NEXTVAL,#{u_name},#{u_pass})
     </insert>
     <update id="updateUser">
+        UPDATE T_USER SET U_PASS=#{u_pass} WHERE u_id=#{u_id}
     </update>
-    <delete id="deleteUser">
-
-    </delete>
     <select id="queryUserByNameAndPass" resultType="com.iotek.model.User">
-        SELECT * FROM user WHERE name=#{name} AND pass=#{pass}
-    </select>
-    <select id="queryAllUser" resultType="com.iotek.model.User">
-
-    </select>
-    <select id="queryUserById" resultType="com.iotek.model.User">
-
+        SELECT * FROM T_USER WHERE U_NAME=#{u_name} and U_PASS=#{u_pass}
     </select>
     <select id="queryUserByName" resultType="com.iotek.model.User">
-
+        SELECT * FROM T_USER where U_NAME=#{u_name}
     </select>
-
 </mapper>

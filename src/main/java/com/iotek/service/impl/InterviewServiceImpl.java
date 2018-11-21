@@ -26,17 +26,13 @@ public class InterviewServiceImpl implements InterviewService {
     }
 
     @Override
-    public boolean deleteInterview(Interview interview) {
-        return interviewDao.deleteInterview(interview);
-    }
-
-    @Override
     public List<Interview> queryAllInterview() {
         return interviewDao.queryAllInterview();
     }
 
     @Override
-    public Interview queryRecruit(Interview interview) {
-        return interviewDao.queryRecruit(interview);
+    public Interview queryInterview(int i_id) {
+        return interviewDao.queryInterview(i_id);
     }
+
 }

@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.SalaryDao">
-    <insert id="addSalary"></insert>
-    <update id="updateSalary"></update>
-    <delete id="deleteSalary"></delete>
-    <select id="queryAllSalary" resultType="com.iotek.model.Salary"></select>
-    <select id="querySalary" resultType="com.iotek.model.Salary"></select>
+    <insert id="addSalary">
+        INSERT INTO T_SALARY(SL_ID,S_ID,S_WAGE,S_FINE,S_PRIZE,S_SALARYS,S_MONTH,S_TIME)
+        VALUES(SEQ_SL_ID.NEXTVAL,#{s_id},#{s_wage},#{s_fine},#{s_prize},#{s_salarys},#{s_month},#{s_time})
+    </insert>
+    <update id="updateSalary">
+        UPDATE T_SALARY
+        <set>
+            <if test="s_wage!=null">
+                S_WAGE=#{s_wage},
+            </if>
+            <if test="s_fine!=null">
+                S_FINE=#{s_fine},
+            </if>
+            <if test="s_prize!=null">
+                S_PRIZE=#{s_prize},
+            </if>
+            <if test="s_salarys!=null">
+                S_SALARYS=#{s_salarys},
+            </if>
+        </set>
+        WHERE SL_ID=#{sl_id}
+    </update>
+    <delete id="deleteSalary">
+        DELETE FROM T_SALARY WHERE SL_ID=#{sl_id}
+    </delete>
+    <select id="queryAllSalary" resultType="com.iotek.model.Salary">
+        SELECT * FROM T_SALARY
+    </select>
+    <select id="querySalary" resultType="com.iotek.model.Salary">
+        SELECT * FROM T_SALARY WHERE SL_ID=#{sl_id}
+    </select>
+    <select id="queryStaffSalary" resultType="com.iotek.model.Salary">
+        SELECT * FROM T_SALARY WHERE S_ID=#{s_id}
+    </select>
 </mapper>

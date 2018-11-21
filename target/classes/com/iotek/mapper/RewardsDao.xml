@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.RewardsDao">
-    <insert id="addRewards"></insert>
-    <update id="updateRewards"></update>
-    <delete id="deleteRewards"></delete>
-    <select id="queryAllRewards" resultType="com.iotek.model.Rewards"></select>
+    <insert id="addRewards">
+        INSERT INTO T_REWARDS(RW_ID,S_ID,RW_SALARY,R_REASON,R_DATE)
+        VALUES(SEQ_RW_ID.NEXTVAL,#{s_id},#{rw_salary},#{r_reason},#{r_date})
+    </insert>
+    <update id="updateRewards">
+        UPDATE T_REWARDS
+        <set>
+            <if test="rw_salary!=null">
+                RW_SALARY=#{rw_salary},
+            </if>
+            <if test="r_reason!=null">
+                R_REASON=#{r_reason},
+            </if>
+        </set>
+        WHERE RW_ID=#{rw_id}
+    </update>
     <select id="queryRewardsById" resultType="com.iotek.model.Rewards"></select>
+    <select id="queryAllRewardsById" resultType="com.iotek.model.Rewards">
+        SELECT * FROM T_REWARDS WHERE S_ID=#{s_id}
+    </select>
+    <select id="queryAllRewards" resultType="com.iotek.model.Rewards">
+        SELECT * FROM T_REWARDS
+    </select>
+    <select id="queryRewards" resultType="com.iotek.model.Rewards">
+        SELECT * FROM T_REWARDS WHERE RW_ID=#{rw_id}
+    </select>
 </mapper>

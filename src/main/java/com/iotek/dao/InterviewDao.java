@@ -11,8 +11,8 @@ import java.util.List;
 public interface InterviewDao {
     boolean addInterview(Interview interview);
     boolean updateInterview(Interview interview);
-    boolean deleteInterview(Interview interview);
     List<Interview> queryAllInterview();
-    Interview queryRecruit(Interview interview);//通过职位查
+    Interview queryInterview(int i_id);//通过id查
+
 
 }

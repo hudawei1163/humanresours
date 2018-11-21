@@ -31,7 +31,13 @@ public class StaffServiceImpl implements StaffService {
     }
 
     @Override
-    public Staff queryStaff(Staff staff) {
-        return staffDao.queryStaff(staff);
+    public Staff queryStaff(int s_id) {
+        return staffDao.queryStaff(s_id);
+    }
+
+
+    @Override
+    public List<Staff> queryAllStaffByPid(int p_id) {
+        return staffDao.queryAllStaffByPid(p_id);
     }
 }

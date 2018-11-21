@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.PositionDao">
-    <insert id="addPosition"></insert>
-    <update id="updatePosition"></update>
-    <delete id="deletePosition"></delete>
-    <select id="queryAllPosition" resultType="com.iotek.model.Position"></select>
-    <select id="queryPosition" resultType="com.iotek.model.Position"></select>
+    <insert id="addPosition">
+        INSERT INTO T_POSITION(P_ID,D_ID,P_NAME)
+        VALUES(SEQ_P_ID.NEXTVAL,#{d_id},#{p_name})
+    </insert>
+    <update id="updatePosition">
+        UPDATE T_POSITION
+        <set>
+            <if test="p_name!=null">
+                P_NAME=#{p_name}
+            </if>
+        </set>
+        WHERE P_ID=#{p_id}
+    </update>
+    <delete id="deletePosition">
+        DELETE FROM T_POSITION WHERE P_ID=#{p_id}
+    </delete>
+    <select id="queryAllPosition" resultType="com.iotek.model.Position">
+        SELECT * FROM T_POSITION
+    </select>
+    <select id="queryPosition" resultType="com.iotek.model.Position">
+        SELECT * FROM T_POSITION WHERE P_NAME=#{p_name}
+    </select>
+    <select id="queryPositionById" resultType="com.iotek.model.Position">
+        SELECT * FROM T_POSITION WHERE P_ID=#{p_id}
+    </select>
+    <select id="queryAllPositionByDid" resultType="com.iotek.model.Position">
+     SELECT * FROM T_POSITION WHERE D_ID=#{d_id}
+    </select>
+
 </mapper>

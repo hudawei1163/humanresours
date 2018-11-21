@@ -26,17 +26,29 @@ public class AttendanceServiceImpl implements AttendanceService {
     }
 
     @Override
-    public boolean deleteAttendance(Attendance attendance) {
-        return attendanceDao.deleteAttendance(attendance);
-    }
-
-    @Override
     public List<Attendance> queryAllAttendance() {
         return attendanceDao.queryAllAttendance();
     }
 
     @Override
-    public Attendance queryAttendance(Attendance attendance) {
-        return attendanceDao.queryAttendance(attendance);
+    public List<Attendance> queryStaffAllAttendance(int s_id) {
+        return attendanceDao.queryStaffAllAttendance(s_id);
     }
+
+    @Override
+    public int queryNormalDays(int s_id) {
+        return attendanceDao.queryNormalDays(s_id);
+    }
+
+    @Override
+    public int queryLateDays(int s_id) {
+        return attendanceDao.queryLateDays(s_id);
+    }
+
+    @Override
+    public int queryEarlyDays(int s_id) {
+        return attendanceDao.queryEarlyDays(s_id);
+    }
+
+
 }

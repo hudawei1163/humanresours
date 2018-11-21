@@ -8,7 +8,8 @@ import java.io.Serializable;
 //简历
 public class Resume implements Serializable {
     private int r_id;
-    private String r_name;
+    private int u_id;
+    private String r_name;//简历名
     private String u_name;//姓名
     private String r_education;//学历
     private String r_sex;//性别
@@ -22,9 +23,12 @@ public class Resume implements Serializable {
     private String r_jobIntention;//求职意向
     private String r_workExperience; // 工作经验
     private String r_deliver; //是否投递
-    private String r_read;//未读和已读
 
-    public Resume(String r_name, String u_name, String r_education, String r_sex, String r_birthplace, String r_phone, String r_mail, String r_birthdate, String r_status, String r_idNumber, String r_abode, String r_jobIntention, String r_workExperience, String r_deliver, String r_read) {
+    public Resume() {
+    }
+
+    public Resume(int u_id, String r_name, String u_name, String r_education, String r_sex, String r_birthplace, String r_phone, String r_mail, String r_birthdate, String r_status, String r_idNumber, String r_abode, String r_jobIntention, String r_workExperience, String r_deliver) {
+        this.u_id = u_id;
         this.r_name = r_name;
         this.u_name = u_name;
         this.r_education = r_education;
@@ -39,7 +43,25 @@ public class Resume implements Serializable {
         this.r_jobIntention = r_jobIntention;
         this.r_workExperience = r_workExperience;
         this.r_deliver = r_deliver;
-        this.r_read = r_read;
+    }
+
+    public Resume(int r_id, int u_id, String r_name, String u_name, String r_education, String r_sex, String r_birthplace, String r_phone, String r_mail, String r_birthdate, String r_status, String r_idNumber, String r_abode, String r_jobIntention, String r_workExperience, String r_deliver) {
+        this.r_id = r_id;
+        this.u_id = u_id;
+        this.r_name = r_name;
+        this.u_name = u_name;
+        this.r_education = r_education;
+        this.r_sex = r_sex;
+        this.r_birthplace = r_birthplace;
+        this.r_phone = r_phone;
+        this.r_mail = r_mail;
+        this.r_birthdate = r_birthdate;
+        this.r_status = r_status;
+        this.r_idNumber = r_idNumber;
+        this.r_abode = r_abode;
+        this.r_jobIntention = r_jobIntention;
+        this.r_workExperience = r_workExperience;
+        this.r_deliver = r_deliver;
     }
 
     public int getR_id() {
@@ -48,6 +70,14 @@ public class Resume implements Serializable {
 
     public void setR_id(int r_id) {
         this.r_id = r_id;
+    }
+
+    public int getU_id() {
+        return u_id;
+    }
+
+    public void setU_id(int u_id) {
+        this.u_id = u_id;
     }
 
     public String getR_name() {
@@ -162,11 +192,4 @@ public class Resume implements Serializable {
         this.r_deliver = r_deliver;
     }
 
-    public String getR_read() {
-        return r_read;
-    }
-
-    public void setR_read(String r_read) {
-        this.r_read = r_read;
-    }
 }

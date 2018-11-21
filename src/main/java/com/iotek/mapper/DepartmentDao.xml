@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.DepartmentDao">
-    <insert id="addDepartment"></insert>
-    <update id="updateDepartment"></update>
-    <delete id="deleteDepartment"></delete>
-    <select id="queryAllDepartment" resultType="com.iotek.model.Department"></select>
-    <select id="queryDepartment" resultType="com.iotek.model.Department"></select>
+    <insert id="addDepartment">
+        INSERT INTO T_DEPARTMENT(D_ID,D_NAME,D_TIME)
+        VALUES(SEQ_D_ID.NEXTVAL,#{d_name},#{d_time})
+    </insert>
+    <update id="updateDepartment">
+        UPDATE T_DEPARTMENT
+        <set>
+            <if test="d_name!=null">
+                D_NAME=#{d_name}
+            </if>
+        </set>
+        WHERE D_ID=#{d_id}
+    </update>
+    <delete id="deleteDepartment">
+        DELETE FROM T_DEPARTMENT WHERE D_ID=#{d_id}
+    </delete>
+    <select id="queryAllDepartment" resultType="com.iotek.model.Department">
+        SELECT * FROM T_DEPARTMENT
+    </select>
+    <select id="queryDepartment" resultType="com.iotek.model.Department">
+        SELECT * FROM T_DEPARTMENT WHERE D_NAME=#{d_name}
+    </select>
+    <select id="queryDepartmentByid" resultType="com.iotek.model.Department">
+        SELECT * FROM T_DEPARTMENT WHERE D_ID=#{d_id}
+    </select>
 </mapper>

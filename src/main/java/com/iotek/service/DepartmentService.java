@@ -12,5 +12,6 @@ public interface DepartmentService {
     boolean updateDepartment(Department department);
     boolean deleteDepartment(Department department);
     List<Department> queryAllDepartment();
-    Department queryDepartment(Department department);
+    Department queryDepartment(String d_name);
+    Department queryDepartmentByid(int d_id);
 }

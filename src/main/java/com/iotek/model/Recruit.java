@@ -8,7 +8,7 @@ import java.io.Serializable;
 //招聘信息
 public class Recruit implements Serializable{
     private int r_id;
-    private String p_id;//职位
+    private int p_id;//职位
     private String r_workExperience;//工作经验
     private String r_education;//学历
     private int r_peopleNumber;//招人数
@@ -16,7 +16,10 @@ public class Recruit implements Serializable{
     private double r_salary;//薪资
     private String r_date; //日期
 
-    public Recruit(String p_id, String r_workExperience, String r_education, int r_peopleNumber, String r_workplace, double r_salary, String r_date) {
+    public Recruit() {
+    }
+
+    public Recruit(int p_id, String r_workExperience, String r_education, int r_peopleNumber, String r_workplace, double r_salary, String r_date) {
         this.p_id = p_id;
         this.r_workExperience = r_workExperience;
         this.r_education = r_education;
@@ -26,7 +29,7 @@ public class Recruit implements Serializable{
         this.r_date = r_date;
     }
 
-    public Recruit(int r_id, String p_id, String r_workExperience, String r_education, int r_peopleNumber, String r_workplace, double r_salary, String r_date) {
+    public Recruit(int r_id, int p_id, String r_workExperience, String r_education, int r_peopleNumber, String r_workplace, double r_salary, String r_date) {
         this.r_id = r_id;
         this.p_id = p_id;
         this.r_workExperience = r_workExperience;
@@ -45,11 +48,11 @@ public class Recruit implements Serializable{
         this.r_id = r_id;
     }
 
-    public String getP_id() {
+    public int getP_id() {
         return p_id;
     }
 
-    public void setP_id(String p_id) {
+    public void setP_id(int p_id) {
         this.p_id = p_id;
     }
 
@@ -99,5 +102,19 @@ public class Recruit implements Serializable{
 
     public void setR_date(String r_date) {
         this.r_date = r_date;
+    }
+
+    @Override
+    public String toString() {
+        return "Recruit{" +
+                "r_id=" + r_id +
+                ", p_id=" + p_id +
+                ", r_workExperience='" + r_workExperience + '\'' +
+                ", r_education='" + r_education + '\'' +
+                ", r_peopleNumber=" + r_peopleNumber +
+                ", r_workplace='" + r_workplace + '\'' +
+                ", r_salary=" + r_salary +
+                ", r_date='" + r_date + '\'' +
+                '}';
     }
 }

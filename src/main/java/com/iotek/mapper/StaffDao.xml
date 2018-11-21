@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.StaffDao">
-    <insert id="addStaff"></insert>
-    <update id="updateStaff"></update>
+    <insert id="addStaff">
+        INSERT INTO T_STAFF(S_ID,P_ID,S_NAME,S_PHONE,S_PASS,S_SALARY,S_STATUS)
+        VALUES(SEQ_S_ID.NEXTVAL,#{p_id},#{s_name},#{s_phone},#{s_pass},#{s_salary},#{s_status})
+    </insert>
+    <update id="updateStaff">
+        UPDATE T_STAFF
+        <set>
+            <if test="p_id!=null">
+                P_ID=#{p_id},
+            </if>
+            <if test="s_name!=null">
+                S_NAME=#{s_name},
+            </if>
+            <if test="s_phone!=null">
+                S_PHONE=#{s_phone},
+            </if>
+            <if test="s_pass!=null">
+                S_PASS=#{s_pass},
+            </if>
+            <if test="s_salary!=null">
+                S_SALARY=#{s_salary},
+            </if>
+            <if test="s_status!=null">
+                S_STATUS=#{s_status},
+            </if>
+        </set>
+        WHERE S_ID=#{s_id}
+    </update>
     <select id="queryAllStaff" resultType="com.iotek.model.Staff"></select>
-    <select id="queryStaff" resultType="com.iotek.model.Staff"></select>
+    <select id="queryStaff" resultType="com.iotek.model.Staff">
+        SELECT * FROM T_STAFF WHERE S_ID=#{s_id}
+    </select>
+    <select id="queryAllStaffByPid" resultType="com.iotek.model.Staff">
+        SELECT * FROM T_STAFF WHERE P_ID=#{p_id}
+    </select>
 </mapper>

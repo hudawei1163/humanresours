@@ -13,5 +13,5 @@ public interface RecruitDao {
     boolean updateRecruit(Recruit recruit);
     boolean deleteRecruit(Recruit recruit);
     List<Recruit> queryAllRecruit();
-    Recruit queryRecruit(Recruit recruit);//通过职位查
+    Recruit queryRecruit(int r_id);
 }

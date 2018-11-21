@@ -10,7 +10,9 @@ import java.util.List;
 public interface AttendanceService {
     boolean addAttendance(Attendance attendance);
     boolean updateAttendance(Attendance attendance);
-    boolean deleteAttendance(Attendance attendance);
     List<Attendance> queryAllAttendance();
-    Attendance queryAttendance(Attendance attendance);
+    List<Attendance> queryStaffAllAttendance(int s_id);
+    int queryNormalDays (int s_id);//正常天数
+    int queryLateDays (int s_id);//早退天数
+    int queryEarlyDays (int s_id);//迟到天数
 }

@@ -23,24 +23,16 @@ public class UserServiceImpl implements UserService{
     public boolean updateUser(User user) {
         return userDao.updateUser(user);
     }
-    //注销用户
-    public boolean deleteUser(User user) {
-        return userDao.deleteUser(user);
-    }
     //通过用户名和密码查询用户
     public User queryUserByNameAndPass(User user) {
+
         return userDao.queryUserByNameAndPass(user);
     }
-    //查询全部的用户
-    public List<User> queryAllUser() {
-        return userDao.queryAllUser();
-    }
-    //通过id查询用户
-    public User queryUserById(int u_id) {
-        return userDao.queryUserById(u_id);
-    }
-    //通过用户名查询用户
+
+    @Override
     public User queryUserByName(String u_name) {
         return userDao.queryUserByName(u_name);
     }
+
+
 }

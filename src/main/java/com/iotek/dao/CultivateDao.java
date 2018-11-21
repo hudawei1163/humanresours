@@ -12,5 +12,6 @@ public interface CultivateDao {
     boolean updateCultivate(Cultivate cultivate);
     boolean deleteCultivate(Cultivate cultivate);
     List<Cultivate> queryAllCultivate();
-    Cultivate queryCultivate(Cultivate cultivate);
+    List<Cultivate> queryAllStaffCultivate(int s_id);
+    Cultivate queryCultivate(int c_id);
 }

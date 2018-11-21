@@ -10,7 +10,7 @@ import java.util.List;
 public interface RewardsDao {
     boolean addRewards(Rewards rewards);
     boolean updateRewards(Rewards rewards);
-    boolean deleteRewards(Rewards rewards);
     List<Rewards> queryAllRewards();
-    Rewards queryRewardsById(int r_id);
+    List<Rewards> queryAllRewardsById(int s_id);
+    Rewards queryRewards(int rw_id);
 }

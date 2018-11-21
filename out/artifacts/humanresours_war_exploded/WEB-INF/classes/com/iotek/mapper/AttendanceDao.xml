@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.AttendanceDao">
-    <insert id="addAttendance"></insert>
-    <update id="updateAttendance"></update>
-    <delete id="deleteAttendance"></delete>
-    <select id="queryAllAttendance" resultType="com.iotek.model.Attendance"></select>
-    <select id="queryAttendance" resultType="com.iotek.model.Attendance"></select>
+    <insert id="addAttendance">
+        INSERT INTO T_ATTENDANCE(A_ID,S_ID,A_UP_WORK,A_DOWN_WORK,A_STATE)
+        VALUES (SEQ_A_ID.NEXTVAL,#{s_id},#{a_up_work},#{a_down_work},#{a_state})
+    </insert>
+    <update id="updateAttendance">
+        UPDATE T_ATTENDANCE
+        <set>
+            <if test="a_down_work!=null">
+                A_DOWN_WORK=#{a_down_work},
+            </if>
+            <if test="a_state!=null">
+                A_STATE=#{a_state},
+            </if>
+        </set>
+        WHERE A_ID=#{a_id}
+    </update>
+
+    <select id="queryAllAttendance" resultType="com.iotek.model.Attendance">
+        SELECT * FROM T_ATTENDANCE
+    </select>
+    <select id="queryStaffAllAttendance" resultType="com.iotek.model.Attendance">
+        SELECT * FROM T_ATTENDANCE WHERE S_ID=#{s_id}
+    </select>
+    <!--下班时间不是未打 状态为正常 为正常
+    下班时间不是未打 状态为迟到     为迟到
+    早退就是早退-->
+    <select id="queryNormalDays" resultType="java.lang.Integer"></select>
+    <select id="queryLateDays" resultType="java.lang.Integer"></select>
+    <select id="queryEarlyDays" resultType="java.lang.Integer"></select>
 </mapper>

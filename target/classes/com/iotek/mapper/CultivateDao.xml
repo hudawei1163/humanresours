@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.CultivateDao">
-    <insert id="addCultivate"></insert>
-    <update id="updateCultivate"></update>
-    <delete id="deleteCultivate"></delete>
-    <select id="queryAllCultivate" resultType="com.iotek.model.Cultivate"></select>
-    <select id="queryCultivate" resultType="com.iotek.model.Cultivate"></select>
+    <insert id="addCultivate">
+        INSERT INTO T_CULTIVATE(C_ID,S_ID,C_THEME,C_START_TIME,C_END_TIME,C_ADDRESS)
+        VALUES(SEQ_C_ID.NEXTVAL,#{s_id},#{c_theme},#{c_start_time},#{c_end_time},#{c_address})
+    </insert>
+    <update id="updateCultivate">
+        UPDATE T_CULTIVATE
+        <set>
+            <if test="s_id!=null">
+                S_ID=#{s_id},
+            </if>
+            <if test="c_theme!=null">
+                C_THEME=#{c_theme},
+            </if>
+            <if test="c_start_time!=null">
+                C_START_TIME=#{c_start_time},
+            </if>
+            <if test="c_end_time!=null">
+                C_END_TIME=#{c_end_time},
+            </if>
+            <if test="c_address!=null">
+                C_ADDRESS=#{c_address},
+            </if>
+        </set>
+        WHERE C_ID=#{c_id}
+    </update>
+    <delete id="deleteCultivate">
+         DELETE FROM T_CULTIVATE WHERE C_ID=#{c_id}
+    </delete>
+    <select id="queryAllCultivate" resultType="com.iotek.model.Cultivate">
+        SELECT * FROM T_CULTIVATE
+    </select>
+    <select id="queryCultivate" resultType="com.iotek.model.Cultivate">
+        SELECT * FROM T_CULTIVATE WHERE C_ID=#{c_id}
+    </select>
+    <select id="queryAllStaffCultivate" resultType="com.iotek.model.Cultivate">
+        SELECT * FROM T_CULTIVATE WHERE S_ID=#{s_id}
+    </select>
 </mapper>

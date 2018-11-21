@@ -17,6 +17,15 @@ public class DepartmentServiceImpl implements DepartmentService {
     private DepartmentDao departmentDao;
     @Override
     public boolean addDepartment(Department department) {
+        if(department==null){
+            return false;
+        }
+        List<Department> departments = departmentDao.queryAllDepartment();
+        for (Department p:departments) {
+            if (department.getD_name().equals(p.getD_name())){
+                return false;
+            }
+        }
         return departmentDao.addDepartment(department);
     }
 
@@ -36,7 +45,12 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public Department queryDepartment(Department department) {
-        return departmentDao.queryDepartment(department);
+    public Department queryDepartment(String d_name) {
+        return departmentDao.queryDepartment(d_name);
+    }
+
+    @Override
+    public Department queryDepartmentByid(int d_id) {
+        return departmentDao.queryDepartmentByid(d_id);
     }
 }

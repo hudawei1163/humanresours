@@ -11,5 +11,6 @@ public interface StaffDao {
     boolean addStaff(Staff staff);
     boolean updateStaff(Staff staff);
     List<Staff> queryAllStaff();
-    Staff queryStaff(Staff staff);
+    Staff queryStaff(int s_id);
+    List<Staff> queryAllStaffByPid(int p_id);
 }

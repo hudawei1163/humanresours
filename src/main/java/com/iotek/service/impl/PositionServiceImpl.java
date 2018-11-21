@@ -17,6 +17,15 @@ public class PositionServiceImpl implements PositionService {
     private PositionDao positionDao;
     @Override
     public boolean addPosition(Position position) {
+        if(position==null){
+            return false;
+        }
+        List<Position> positions = positionDao.queryAllPosition();
+        for (Position p:positions) {
+            if (position.getP_name().equals(p.getP_name())){
+                return false;
+            }
+        }
         return positionDao.addPosition(position);
     }
 
@@ -36,7 +45,17 @@ public class PositionServiceImpl implements PositionService {
     }
 
     @Override
-    public Position queryPosition(Position position) {
-        return positionDao.queryPosition(position);
+    public Position queryPosition(String p_name) {
+        return positionDao.queryPosition(p_name);
+    }
+
+    @Override
+    public Position queryPositionById(int p_id) {
+        return positionDao.queryPositionById(p_id);
+    }
+
+    @Override
+    public List<Position> queryAllPositionByDid(int d_id) {
+        return positionDao.queryAllPositionByDid(d_id);
     }
 }

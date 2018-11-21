@@ -6,6 +6,7 @@ import com.iotek.service.ResumeService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -41,7 +42,17 @@ public class ResumeServiceImpl implements ResumeService {
 
     @Override
     public List<Resume> queryAllResume() {
-        return resumeDao.queryAllResume();
+        List<Resume> resumes=resumeDao.queryAllResume();
+        if (resumes==null){
+            return null;
+        }
+        List<Resume> resumes1=new ArrayList<>();
+        for (Resume resume:resumes) {
+            if("已投".equals(resume.getR_deliver())){
+                resumes1.add(resume);
+            }
+        }
+        return resumes1;
     }
 
     @Override
@@ -50,20 +61,8 @@ public class ResumeServiceImpl implements ResumeService {
     }
 
     @Override
-    public Resume queryResumeByName(String r_name) {
-        if (r_name==null){
-            return null;
-        }
-        return resumeDao.queryResumeByName(r_name);
-    }
-
-
-    @Override
-    public List<Resume> queryAllResumeByName(String u_name) {
-        if (u_name==null){
-            return null;
-        }
-        return resumeDao.queryAllResumeByName(u_name);
+    public List<Resume> queryAllResumeById(int u_id) {
+        return resumeDao.queryAllResumeById(u_id);
     }
 
 

@@ -36,7 +36,9 @@ public class RecruitServiceImpl implements RecruitService {
     }
 
     @Override
-    public Recruit queryRecruit(Recruit recruit) {
-        return recruitDao.queryRecruit(recruit);
+    public Recruit queryRecruit(int r_id) {
+        return recruitDao.queryRecruit(r_id);
     }
+
+
 }

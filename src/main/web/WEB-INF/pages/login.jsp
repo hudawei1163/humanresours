@@ -45,7 +45,7 @@
         </tr>
         <tr>
             <td></td>
-            <td><a href="ShowAllGoodServlet">自动登陆</a><span style="padding-left: 20% "><a href="login.jsp">找回密码</a></span></td>
+            <td><a href="userLoginServlet">自动登陆</a><span style="padding-left: 20% "><a href="login.jsp">找回密码</a></span></td>
         </tr>
     </table>
 </form>

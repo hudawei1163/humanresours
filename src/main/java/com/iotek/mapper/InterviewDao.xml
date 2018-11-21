@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.InterviewDao">
-    <insert id="addInterview"></insert>
-    <update id="updateInterview"></update>
-    <delete id="deleteInterview"></delete>
-    <select id="queryAllInterview" resultType="com.iotek.model.Interview"></select>
-    <select id="queryRecruit" resultType="com.iotek.model.Interview"></select>
+    <insert id="addInterview">
+        INSERT INTO T_INTERVIEW(I_ID,R_ID,U_ID,U_NAME,R_PHONE,P_NAME,I_STATUS,I_DATE)
+        VALUES(SEQ_I_ID.NEXTVAL,#{r_id},#{u_id},#{u_name},#{r_phone},#{p_name},#{i_status},#{i_date})
+    </insert>
+    <update id="updateInterview">
+        UPDATE T_INTERVIEW
+        <set>
+            <if test="i_status!=null">
+                I_STATUS=#{i_status}
+            </if>
+        </set>
+        WHERE I_ID=#{i_id}
+    </update>
+    <select id="queryAllInterview" resultType="com.iotek.model.Interview">
+        SELECT * FROM T_INTERVIEW
+    </select>
+    <select id="queryInterview" resultType="com.iotek.model.Interview">
+        SELECT * FROM T_INTERVIEW WHERE I_ID=#{i_id}
+    </select>
+
 </mapper>

@@ -13,5 +13,5 @@ public interface RecruitService {
     boolean updateRecruit(Recruit recruit);
     boolean deleteRecruit(Recruit recruit);
     List<Recruit> queryAllRecruit();
-    Recruit queryRecruit(Recruit recruit);
+    Recruit queryRecruit(int r_id);
 }

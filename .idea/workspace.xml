@@ -2,15 +2,275 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a89407f0-84fe-4e6a-9c20-4fff7354f823" name="Default" comment="第二次提交">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/a1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/b1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/photo/c1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllRewards.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllSalary.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAttendance.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryCultivate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryDepartment.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryMyCultivate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryPosition.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryRewards.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/querySalary.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserInterview.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/staffLogin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaffGuard.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaffGuard1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateUser.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateaStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatebStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/user.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/49ed0481-c09e-4aa8-9621-6bf42f1af43e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/writerResume.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/AttendanceController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/AttendanceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/CultivateController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/CultivateController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/DepartmentController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/DepartmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/InterviewController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/InterviewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/PositionController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/PositionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/RecruitController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/RecruitController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/ResumeController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/ResumeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/RewardsController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/RewardsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/SalaryController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/SalaryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/StaffController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/StaffController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/AttendanceDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/AttendanceDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/CultivateDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/CultivateDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/DepartmentDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/DepartmentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/InterviewDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/InterviewDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/PositionDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/PositionDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/RecruitDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/RecruitDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/ResumeDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/ResumeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/RewardsDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/RewardsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/SalaryDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/SalaryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/StaffDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/StaffDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Attendance.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Attendance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Cultivate.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Cultivate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Department.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Department.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Interview.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Interview.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Position.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Position.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Recruit.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Recruit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Resume.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Resume.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Rewards.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Rewards.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Salary.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Salary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Staff.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/Staff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/AttendanceService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/AttendanceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/CultivateService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/CultivateService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/DepartmentService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/DepartmentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/InterviewService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/InterviewService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/PositionService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/PositionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/RecruitService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/RecruitService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/ResumeService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/ResumeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/RewardsService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/RewardsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/SalaryService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/SalaryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/StaffService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/StaffService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/AttendanceServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/AttendanceServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/CultivateServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/CultivateServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/DepartmentServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/DepartmentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/InterviewServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/InterviewServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/PositionServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/PositionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/RecruitServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/RecruitServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/ResumeServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/ResumeServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/RewardsServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/RewardsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/SalaryServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/SalaryServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/StaffServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/StaffServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/AttendanceController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/AttendanceController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/CultivateController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/CultivateController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/DepartmentController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/DepartmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/InterviewController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/InterviewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/PositionController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/PositionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/RecruitController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/RecruitController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/ResumeController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/ResumeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/RewardsController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/RewardsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/SalaryController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/SalaryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/StaffController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/StaffController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/AttendanceDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/AttendanceDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/CultivateDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/CultivateDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/DepartmentDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/DepartmentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/InterviewDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/InterviewDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/PositionDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/PositionDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/RecruitDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/RecruitDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/ResumeDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/ResumeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/RewardsDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/RewardsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/SalaryDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/SalaryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/StaffDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/StaffDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Attendance.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Attendance.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Cultivate.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Cultivate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Department.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Department.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Interview.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Interview.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Position.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Position.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Recruit.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Recruit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Resume.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Resume.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Rewards.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Rewards.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Salary.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Salary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/Staff.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/Staff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/AttendanceService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/AttendanceService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/CultivateService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/CultivateService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/DepartmentService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/DepartmentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/InterviewService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/InterviewService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/PositionService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/PositionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/RecruitService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/RecruitService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/ResumeService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/ResumeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/RewardsService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/RewardsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/SalaryService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/SalaryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/StaffService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/StaffService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/AttendanceServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/AttendanceServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/CultivateServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/CultivateServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/DepartmentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/DepartmentServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/InterviewServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/InterviewServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/PositionServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/PositionServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/RecruitServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/RecruitServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/ResumeServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/ResumeServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/RewardsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/RewardsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/SalaryServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/SalaryServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/StaffServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/StaffServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/iotek/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/AttendanceDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/AttendanceDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/CultivateDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/CultivateDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/DepartmentDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/DepartmentDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/InterviewDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/InterviewDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/PositionDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/PositionDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/RecruitDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/RecruitDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/ResumeDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/ResumeDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/RewardsDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/RewardsDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/SalaryDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/SalaryDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/StaffDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/StaffDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/com/iotek/mapper/UserDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/addRecruit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/addRecruit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/admin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/queryRecruit.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/queryRecruit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/queryResume.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/queryResume.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/WEB-INF/pages/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/humanresours_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/AttendanceController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/AttendanceController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/DepartmentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/DepartmentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/InterviewController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/InterviewController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/PositionController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/PositionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/RecruitController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/RecruitController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/AttendanceDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/AttendanceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/CultivateDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/CultivateDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/DepartmentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/DepartmentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/InterviewDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/InterviewDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/PositionDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/PositionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/RecruitDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/RecruitDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/ResumeDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/ResumeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/RewardsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/RewardsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/SalaryDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/SalaryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/StaffDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/StaffDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/dao/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/AttendanceDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/AttendanceDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/CultivateDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/CultivateDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/DepartmentDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/DepartmentDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/InterviewDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/InterviewDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/PositionDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/PositionDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/RecruitDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/RecruitDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/ResumeDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/ResumeDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/RewardsDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/RewardsDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/SalaryDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/SalaryDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/StaffDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/StaffDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/mapper/UserDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Attendance.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Attendance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Cultivate.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Cultivate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Department.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Department.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Interview.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Interview.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Position.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Position.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Recruit.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Recruit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Resume.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Resume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Rewards.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Rewards.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Salary.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Salary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/Staff.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/Staff.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/AttendanceService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/AttendanceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/CultivateService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/CultivateService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/DepartmentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/DepartmentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/InterviewService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/InterviewService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/PositionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/PositionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/RecruitService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/RecruitService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/ResumeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/ResumeService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/RewardsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/RewardsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/SalaryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/SalaryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/StaffService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/StaffService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/AttendanceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/AttendanceServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/CultivateServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/CultivateServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/DepartmentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/DepartmentServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/InterviewServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/InterviewServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/PositionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/PositionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/RecruitServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/RecruitServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/ResumeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/ResumeServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/RewardsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/RewardsServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/SalaryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/SalaryServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/StaffServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/StaffServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addAttendance.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addAttendance.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addCultivate.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addCultivate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addDepartment.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addDepartment.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addInterview.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addInterview.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addPosition.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addPosition.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRecruit.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRecruit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addResume.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addResume.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addSalary.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addSalary.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryInterview.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryInterview.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryRecruit.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryRecruit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryResume.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryResume.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserResume.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserResume.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/staff.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/staff.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateCultivate.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateCultivate.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateDepartment.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateDepartment.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatePosition.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatePosition.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRecruit.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRecruit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateResume.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateResume.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRewards.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRewards.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateSalary.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateSalary.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaff.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaff.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/index.jsp" afterPath="$PROJECT_DIR$/src/main/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/AttendanceDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/AttendanceDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/CultivateDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/CultivateDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/DepartmentDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/DepartmentDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/InterviewDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/InterviewDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/PositionDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/PositionDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/RecruitDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/RecruitDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/ResumeDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/ResumeDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/RewardsDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/RewardsDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/SalaryDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/SalaryDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/StaffDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/StaffDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotek/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/target/classes/com/iotek/mapper/UserDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/db.properties" afterPath="$PROJECT_DIR$/target/classes/db.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addIRewards.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRewards.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addStaff.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/adminQueryRecruit.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllstaff.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllStaff.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateInterview.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllAttendance.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +312,66 @@
         <option name="myItemId" value="SCOTT" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SCOTT" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
       <PATH_ELEMENT>
         <option name="myItemId" value="T_USER" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SCOTT" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="SCOTT" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="T_CULTIVATE" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -61,73 +379,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ResumeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java">
+      <file leaf-file-name="RewardsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecruitController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RecruitController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterviewController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/InterviewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaffController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interview.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Interview.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PositionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/PositionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DepartmentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/DepartmentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="182">
+              <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -136,29 +392,121 @@
       <file leaf-file-name="SalaryController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="-1648">
+              <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RewardsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java">
+      <file leaf-file-name="StaffController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="-3388">
+              <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CultivateController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="-1756">
+              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttendanceDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/dao/AttendanceDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttendanceDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/AttendanceDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-208">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <marker date="1541330391527" expanded="true" signature="238:384" ph="INSERT INTO T_ATTENDANCE... " />
+                <marker date="1541330391527" expanded="true" signature="442:713" ph="UPDATE T_ATT... " />
+                <marker date="1541330391527" expanded="true" signature="814:840" ph="SELECT * FRO... T_ATTENDANCE" />
+                <marker date="1541330391527" expanded="true" signature="945:990" ph="SELECT * FRO... T_ATTENDANCE" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/PositionDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <marker date="1541260490138" expanded="true" signature="234:325" ph="INSERT INTO T_POSITION... " />
+                <marker date="1541260490138" expanded="true" signature="381:542" ph="UPDATE T_POS... " />
+                <marker date="1541260490138" expanded="true" signature="598:639" ph="DELETE FROM " />
+                <marker date="1541260490138" expanded="true" signature="735:759" ph="SELECT * FRO... T_POSITION" />
+                <marker date="1541260490138" expanded="true" signature="852:899" ph="SELECT * FRO... T_POSITION" />
+                <marker date="1541260490138" expanded="true" signature="996:1039" ph="SELECT * FRO... T_POSITION" />
+                <marker date="1541260490138" expanded="true" signature="1137:1180" ph="SELECT * FRO... T_POSITION" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecruitDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/RecruitDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <marker date="1541059408893" expanded="true" signature="232:468" ph="INSERT INTO T_RECRUIT... " />
+                <marker date="1541059408893" expanded="true" signature="523:1302" ph="UPDATE T_REC... " />
+                <marker date="1541059408893" expanded="true" signature="1357:1397" ph="DELETE FROM " />
+                <marker date="1541059408893" expanded="true" signature="1489:1512" ph="SELECT * FRO... T_RECRUIT" />
+                <marker date="1541059408893" expanded="true" signature="1603:1645" ph="SELECT * FRO... T_RECRUIT" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResumeDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/ResumeDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <marker date="1541081833107" expanded="true" signature="226:627" ph="INSERT INTO T_RESUME... " />
+                <marker date="1541081833107" expanded="true" signature="681:2130" ph="UPDATE T_RES... " />
+                <marker date="1541081833107" expanded="true" signature="2184:2223" ph="DELETE FROM " />
+                <marker date="1541081833107" expanded="true" signature="2315:2337" ph="SELECT * FRO... T_RESUME" />
+                <marker date="1541081833107" expanded="true" signature="2430:2471" ph="SELECT * FRO... T_RESUME" />
+                <marker date="1541081833107" expanded="true" signature="2654:2695" ph="SELECT * FRO... T_RESUME" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RewardsDao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/RewardsDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1541323460097" expanded="true" signature="232:368" ph="INSERT INTO T_REWARDS... " />
+                <marker date="1541323460097" expanded="true" signature="423:690" ph="UPDATE T_REW... " />
+                <marker date="1541323460097" expanded="true" signature="869:911" ph="SELECT * FRO... T_REWARDS" />
+                <marker date="1541323460097" expanded="true" signature="1005:1028" ph="SELECT * FRO... T_REWARDS" />
+                <marker date="1541323460097" expanded="true" signature="1119:1163" ph="SELECT * FRO... T_REWARDS" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,57 +534,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/ResumeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRecruit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRecruit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/RecruitController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/writerResume.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserResume.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryRecruit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateResume.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryResume.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addInterview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateDepartment.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addDepartment.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatInterview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatePosition.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addStaff.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addAttendance.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAttendance.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/AttendanceController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addPosition.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addSalary.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateSalary.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addCultivate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateCultivate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addIRewards.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRewards.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/staff.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllAttendance.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaff.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotek/mapper/StaffDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/dao/StaffDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/StaffService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/StaffServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryInterview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Recruit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Attendance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Cultivate.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateaStaff.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatebStaff.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Rewards.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRewards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryRewards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/dao/RewardsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/mapper/RewardsDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/RewardsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/RewardsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRewards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllRewards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/dao/AttendanceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/AttendanceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/AttendanceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/mapper/AttendanceDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/dao/SalaryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/SalaryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/SalaryServiceImpl.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addSalary.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Salary.java" />
-        <option value="$PROJECT_DIR$/src/main/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/PositionController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllSalary.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/querySalary.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/mapper/SalaryDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateSalary.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaffGuard.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Staff.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Interview.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaffGuard1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserInterview.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/InterviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/model/Cultivate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/dao/CultivateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/CultivateService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/service/impl/CultivateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addCultivate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryCultivate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/mapper/CultivateDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryMyCultivate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/staff.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateCultivate.jsp" />
       </list>
     </option>
   </component>
@@ -261,10 +609,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1030" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -284,9 +632,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,84 +677,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanresours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanresours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanresours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanresours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanresours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="humanresours" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -461,7 +730,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="humanresours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="humanresours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iotek" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,6 +796,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,13 +807,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Git_projects/humanresours/src/main/java/com/iotek/controller/InterviewController.java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git_projects\humanresours\src\main\web\photo" />
+      <recent name="E:\Git_projects\humanresours\src\main\web\photoIndex" />
+      <recent name="E:\Git_projects\humanresours\src\main\web\WEB-INF\pages\photo" />
+      <recent name="E:\Git_projects\humanresours\src\main\web\WEB-INF\pages" />
+      <recent name="E:\Git_projects\humanresours\src\main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.iotek.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Git_projects\humanresours\src\main" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git_projects\humanresours\src\main\web\WEB-INF\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -928,7 +1236,8 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="humanresours:war exploded">
           <settings>
@@ -1028,7 +1337,51 @@
       <workItem from="1540349768640" duration="16655000" />
       <workItem from="1540373131481" duration="1198000" />
       <workItem from="1540390643898" duration="669000" />
-      <workItem from="1540429902373" duration="2915000" />
+      <workItem from="1540429902373" duration="4767000" />
+      <workItem from="1540435646723" duration="7606000" />
+      <workItem from="1540449033534" duration="2260000" />
+      <workItem from="1540451790995" duration="3644000" />
+      <workItem from="1540466260484" duration="110000" />
+      <workItem from="1540466534941" duration="3892000" />
+      <workItem from="1540479780631" duration="5216000" />
+      <workItem from="1540485876507" duration="5029000" />
+      <workItem from="1540518326679" duration="2972000" />
+      <workItem from="1540523298936" duration="5013000" />
+      <workItem from="1540537704669" duration="5552000" />
+      <workItem from="1540543839115" duration="2150000" />
+      <workItem from="1540546311607" duration="573000" />
+      <workItem from="1540559584698" duration="2873000" />
+      <workItem from="1540562997451" duration="4040000" />
+      <workItem from="1540602598279" duration="2868000" />
+      <workItem from="1540607075162" duration="4134000" />
+      <workItem from="1540616795553" duration="4944000" />
+      <workItem from="1540630571069" duration="2742000" />
+      <workItem from="1540648252847" duration="1726000" />
+      <workItem from="1540650334330" duration="13698000" />
+      <workItem from="1540703805478" duration="2190000" />
+      <workItem from="1540728317649" duration="3719000" />
+      <workItem from="1540874928538" duration="611000" />
+      <workItem from="1540901541332" duration="828000" />
+      <workItem from="1540968658457" duration="9995000" />
+      <workItem from="1541047845071" duration="14064000" />
+      <workItem from="1541063033077" duration="8861000" />
+      <workItem from="1541078043711" duration="17662000" />
+      <workItem from="1541120888074" duration="13028000" />
+      <workItem from="1541136948998" duration="11914000" />
+      <workItem from="1541172979395" duration="690000" />
+      <workItem from="1541207609570" duration="12564000" />
+      <workItem from="1541221168231" duration="19006000" />
+      <workItem from="1541244908101" duration="5656000" />
+      <workItem from="1541250943511" duration="1923000" />
+      <workItem from="1541255429674" duration="11016000" />
+      <workItem from="1541305120294" duration="2833000" />
+      <workItem from="1541308450040" duration="10265000" />
+      <workItem from="1541321291393" duration="6176000" />
+      <workItem from="1541328461347" duration="6355000" />
+      <workItem from="1541335343405" duration="20312000" />
+      <workItem from="1541377560452" duration="1099000" />
+      <workItem from="1541379944231" duration="1430000" />
+      <workItem from="1542818333786" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1539943937657</created>
@@ -1048,78 +1401,88 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80264000" />
+    <option name="totallyTimeSpent" value="346048000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="1" width="1920" height="1030" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81639725" sideWeight="0.50216687" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12567714" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23185265" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19861431" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2361111" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8043981" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.96493214" sideWeight="0.49783316" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2659805" sideWeight="0.7439394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2719957" sideWeight="0.7439394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25460455" sideWeight="0.2560606" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37443438" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81639725" sideWeight="0.50216687" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12567714" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23185265" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37443438" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19861431" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8043981" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2361111" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.965847" sideWeight="0.49783316" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25460455" sideWeight="0.7439394" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25460455" sideWeight="0.2560606" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3679402" sideWeight="0.7439394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25460455" sideWeight="0.2560606" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1136,7 +1499,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1145,426 +1508,541 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updatePosition.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateInterview.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/dao/PositionDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addSalary.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateSalary.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateDepartment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateCultivate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addStaff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateRewards.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRecruit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/StaffService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/impl/StaffServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/staff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="360">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/StaffDao.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1541306415467" expanded="true" signature="228:394" ph="INSERT INTO T_STAFF... " />
+            <marker date="1541306415467" expanded="true" signature="447:1060" ph="UPDATE T_STA... " />
+            <marker date="1541306415467" expanded="true" signature="1223:1263" ph="SELECT * FRO... T_STAFF" />
+            <marker date="1541306415467" expanded="true" signature="1358:1398" ph="SELECT * FRO... T_STAFF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateStaffGuard1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserInterview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryUserResume.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+    <entry file="dbDummy://dbtable:/8ed5a848/cb9ad771-88f1-49ad-a7ce-60c060fe1b60/SCOTT.T_USER">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryRecruit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryResume.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryInterview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Attendance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Cultivate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Recruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Rewards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Salary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-            <element signature="e#808#809#0" expanded="false" />
-            <element signature="e#852#853#0" expanded="false" />
-            <element signature="e#888#889#0" expanded="false" />
-            <element signature="e#921#922#0" expanded="false" />
-            <element signature="e#950#951#0" expanded="false" />
-            <element signature="e#994#995#0" expanded="false" />
-            <element signature="e#1030#1031#0" expanded="false" />
-            <element signature="e#1062#1063#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1132#1133#0" expanded="false" />
-            <element signature="e#1166#1167#0" expanded="false" />
-            <element signature="e#1200#1201#0" expanded="false" />
-            <element signature="e#1230#1231#0" expanded="false" />
-            <element signature="e#1276#1277#0" expanded="false" />
-            <element signature="e#1314#1315#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/dao/StaffDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addAttendance.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addCultivate.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/CultivateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addDepartment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addInterview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addIRewards.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addPosition.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addResume.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllstaff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/AttendanceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/PositionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RecruitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="-90">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Interview.java">
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addInterview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addRecruit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addAttendance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryPosition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAttendance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllRewards.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="54" column="6" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryAllSalary.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addPosition.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addCultivate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="33" column="70" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/dao/CultivateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/DepartmentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <marker date="1541258577320" expanded="true" signature="238:335" ph="INSERT INTO T_DEPARTMENT... " />
+            <marker date="1541258577320" expanded="true" signature="393:556" ph="UPDATE T_DEP... " />
+            <marker date="1541258577320" expanded="true" signature="614:657" ph="DELETE FROM " />
+            <marker date="1541258577320" expanded="true" signature="757:783" ph="SELECT * FRO... T_DEPARTMENT" />
+            <marker date="1541258577320" expanded="true" signature="880:929" ph="SELECT * FRO... T_DEPARTMENT" />
+            <marker date="1541258577320" expanded="true" signature="1030:1075" ph="SELECT * FRO... T_DEPARTMENT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/CultivateDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <marker date="1541356835269" expanded="true" signature="236:407" ph="INSERT INTO T_CULTIVATE... " />
+            <marker date="1541356835269" expanded="true" signature="464:1019" ph="UPDATE T_CUL... " />
+            <marker date="1541356835269" expanded="true" signature="1077:1119" ph="DELETE FROM " />
+            <marker date="1541356835269" expanded="true" signature="1217:1242" ph="SELECT * FRO... T_CULTIVATE" />
+            <marker date="1541356835269" expanded="true" signature="1337:1381" ph="SELECT * FRO... T_CULTIVATE" />
+            <marker date="1541356835269" expanded="true" signature="1484:1528" ph="SELECT * FRO... T_CULTIVATE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1526">
+          <caret line="83" column="47" lean-forward="false" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryCultivate.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/queryMyCultivate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/staff.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/updateCultivate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Cultivate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#1110#1111#0" expanded="false" />
+            <element signature="e#1137#1138#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1206#1207#0" expanded="false" />
+            <element signature="e#1234#1235#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1298#1299#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="false" />
+            <element signature="e#1364#1365#0" expanded="false" />
+            <element signature="e#1394#1395#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+            <element signature="e#1517#1518#0" expanded="false" />
+            <element signature="e#1552#1553#0" expanded="false" />
+            <element signature="e#1608#1609#0" expanded="false" />
+            <element signature="e#1656#1657#0" expanded="false" />
+            <element signature="e#1693#1694#0" expanded="false" />
+            <element signature="e#1726#1727#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="false" />
+            <element signature="e#1858#1859#0" expanded="false" />
+            <element signature="e#1890#1891#0" expanded="false" />
+            <element signature="e#1940#1941#0" expanded="false" />
+            <element signature="e#1982#1983#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/AttendanceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/impl/CultivateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#881#882#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/impl/AttendanceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#824#825#0" expanded="false" />
+            <element signature="e#903#904#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1141#1142#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="false" />
+            <element signature="e#1254#1255#0" expanded="false" />
+            <element signature="e#1311#1312#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/impl/InterviewServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/impl/PositionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#887#888#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#1016#1017#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1137#1138#0" expanded="false" />
+            <element signature="e#1190#1191#0" expanded="false" />
+            <element signature="e#1256#1257#0" expanded="false" />
+            <element signature="e#1312#1313#0" expanded="false" />
+            <element signature="e#1377#1378#0" expanded="false" />
+            <element signature="e#1435#1436#0" expanded="false" />
+            <element signature="e#1510#1511#0" expanded="false" />
+            <element signature="e#1572#1573#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/service/impl/RecruitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#878#879#0" expanded="false" />
+            <element signature="e#937#938#0" expanded="false" />
+            <element signature="e#989#990#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/model/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/AttendanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3346">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/CultivateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1348">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/InterviewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="36" column="27" lean-forward="true" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="-1348">
+          <caret line="47" column="69" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/PositionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1318">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RecruitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2338">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/ResumeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/RewardsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/SalaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1648">
+          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/StaffController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="-3388">
+          <caret line="59" column="64" lean-forward="false" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1756">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/dao/AttendanceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/AttendanceDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1541330391527" expanded="true" signature="238:384" ph="INSERT INTO T_ATTENDANCE... " />
+            <marker date="1541330391527" expanded="true" signature="442:713" ph="UPDATE T_ATT... " />
+            <marker date="1541330391527" expanded="true" signature="814:840" ph="SELECT * FRO... T_ATTENDANCE" />
+            <marker date="1541330391527" expanded="true" signature="945:990" ph="SELECT * FRO... T_ATTENDANCE" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/PositionDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <marker date="1541260490138" expanded="true" signature="234:325" ph="INSERT INTO T_POSITION... " />
+            <marker date="1541260490138" expanded="true" signature="381:542" ph="UPDATE T_POS... " />
+            <marker date="1541260490138" expanded="true" signature="598:639" ph="DELETE FROM " />
+            <marker date="1541260490138" expanded="true" signature="735:759" ph="SELECT * FRO... T_POSITION" />
+            <marker date="1541260490138" expanded="true" signature="852:899" ph="SELECT * FRO... T_POSITION" />
+            <marker date="1541260490138" expanded="true" signature="996:1039" ph="SELECT * FRO... T_POSITION" />
+            <marker date="1541260490138" expanded="true" signature="1137:1180" ph="SELECT * FRO... T_POSITION" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/RecruitDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <marker date="1541059408893" expanded="true" signature="232:468" ph="INSERT INTO T_RECRUIT... " />
+            <marker date="1541059408893" expanded="true" signature="523:1302" ph="UPDATE T_REC... " />
+            <marker date="1541059408893" expanded="true" signature="1357:1397" ph="DELETE FROM " />
+            <marker date="1541059408893" expanded="true" signature="1489:1512" ph="SELECT * FRO... T_RECRUIT" />
+            <marker date="1541059408893" expanded="true" signature="1603:1645" ph="SELECT * FRO... T_RECRUIT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/ResumeDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <marker date="1541081833107" expanded="true" signature="226:627" ph="INSERT INTO T_RESUME... " />
+            <marker date="1541081833107" expanded="true" signature="681:2130" ph="UPDATE T_RES... " />
+            <marker date="1541081833107" expanded="true" signature="2184:2223" ph="DELETE FROM " />
+            <marker date="1541081833107" expanded="true" signature="2315:2337" ph="SELECT * FRO... T_RESUME" />
+            <marker date="1541081833107" expanded="true" signature="2430:2471" ph="SELECT * FRO... T_RESUME" />
+            <marker date="1541081833107" expanded="true" signature="2654:2695" ph="SELECT * FRO... T_RESUME" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotek/mapper/RewardsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1541323460097" expanded="true" signature="232:368" ph="INSERT INTO T_REWARDS... " />
+            <marker date="1541323460097" expanded="true" signature="423:690" ph="UPDATE T_REW... " />
+            <marker date="1541323460097" expanded="true" signature="869:911" ph="SELECT * FRO... T_REWARDS" />
+            <marker date="1541323460097" expanded="true" signature="1005:1028" ph="SELECT * FRO... T_REWARDS" />
+            <marker date="1541323460097" expanded="true" signature="1119:1163" ph="SELECT * FRO... T_REWARDS" />
           </folding>
         </state>
       </provider>

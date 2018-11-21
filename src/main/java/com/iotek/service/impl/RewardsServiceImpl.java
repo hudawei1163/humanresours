@@ -27,17 +27,19 @@ private RewardsDao rewardsDao;
     }
 
     @Override
-    public boolean deleteRewards(Rewards rewards) {
-        return rewardsDao.deleteRewards(rewards);
-    }
-
-    @Override
     public List<Rewards> queryAllRewards() {
         return rewardsDao.queryAllRewards();
     }
 
     @Override
-    public Rewards queryRewardsById(int r_id) {
-        return rewardsDao.queryRewardsById(r_id);
+    public List<Rewards> queryAllRewardsById(int s_id) {
+        return rewardsDao.queryAllRewardsById(s_id);
     }
+
+    @Override
+    public Rewards queryRewards(int rw_id) {
+        return rewardsDao.queryRewards(rw_id);
+    }
+
+
 }

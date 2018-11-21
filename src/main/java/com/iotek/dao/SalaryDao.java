@@ -12,5 +12,6 @@ public interface SalaryDao {
     boolean updateSalary(Salary salary);
     boolean deleteSalary(Salary salary);
     List<Salary> queryAllSalary();
-    Salary querySalary(Salary salary);
+    Salary querySalary(int sl_id);
+    List<Salary> queryStaffSalary(int s_id);
 }

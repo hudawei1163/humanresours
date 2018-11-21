@@ -9,9 +9,7 @@ import java.io.Serializable;
 public class Department implements Serializable{
     private int d_id;
     private String d_name;//部门名称
-    /*d_personnel;//人事部
-    d_technology;//技术部
-    d_accounting;//财务部*/
+    private String d_time;//创建时间
 
     public Department() {
     }
@@ -23,6 +21,12 @@ public class Department implements Serializable{
     public Department(int d_id, String d_name) {
         this.d_id = d_id;
         this.d_name = d_name;
+    }
+
+    public Department(int d_id, String d_name, String d_time) {
+        this.d_id = d_id;
+        this.d_name = d_name;
+        this.d_time = d_time;
     }
 
     public int getD_id() {
@@ -39,5 +43,13 @@ public class Department implements Serializable{
 
     public void setD_name(String d_name) {
         this.d_name = d_name;
+    }
+
+    public String getD_time() {
+        return d_time;
+    }
+
+    public void setD_time(String d_time) {
+        this.d_time = d_time;
     }
 }

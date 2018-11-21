@@ -36,7 +36,14 @@ public class SalaryServiceImpl implements SalaryService {
     }
 
     @Override
-    public Salary querySalary(Salary salary) {
-        return salaryDao.querySalary(salary);
+    public Salary querySalary(int sl_id) {
+        return salaryDao.querySalary(sl_id);
     }
+
+    @Override
+    public List<Salary> queryStaffSalary(int s_id) {
+        return salaryDao.queryStaffSalary(s_id);
+    }
+
+
 }

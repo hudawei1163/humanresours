@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: lenovo
@@ -14,23 +15,20 @@
 <head>
     <base href="<%=basePath%>"/>
     <title>用户查看招聘信息</title>
+    <style>
+        td{
+            text-align:center;
+        }
+    </style>
 </head>
 <body>
-if(user.getName().equals("admin")&&user.getPass().equals("admin")){
-    判断是否为管理员    管理员显示
-<a href="admin">返回</a>
-<a href="addRecruit">填写招聘信息</a>
-<a href="updateRecruit">修改招聘信息</a>
-<a href="deleteRecruitServlet">删除招聘信息</a>
-}
-<a href="../../index.jsp">首页</a>
-<a href="addResume">填写简历</a>
 <fieldset style="padding-left: 10%;background: pink">
     <legend>招聘信息</legend><br/>
     <form action="deliverResumeServlet" method="post">
-        <table>
+        <table border="1">
             <tr>
-                <input type="button"value="投递简历"/>
+                <td><input type="button" onclick="location='queryUserResumeServlet'"value="投递简历"/></td>
+                <td><a href="user">返回</a></td>
             </tr>
             <tr>
                 <td>职　　位</td>
@@ -41,15 +39,17 @@ if(user.getName().equals("admin")&&user.getPass().equals("admin")){
                 <td>工作地点</td>
                 <td>发布日期</td>
             </tr>
-            <tr>
-                <td><input type="text" name="p_id" id="p_id"/></td>
-                <td><input type="text" name="r_education" id="r_education"/></td>
-                <td><input type="text" name="r_peopleNumber" id="r_peopleNumber"/></td>
-                <td><input type="text" name="r_salary" id="r_salary"/></td>
-                <td><input type="text" name="r_workExperience" id="r_workExperience"/></td>
-                <td><input type="text" name="r_workplace" id="r_workplace"/></td>
-                <td><input type="text" name="r_date" id="r_date"/></td>
-            </tr>
+            <c:forEach items="${requestScope.recruits}" var="recruits" varStatus="loop">
+                <tr>
+                <td>${positions[loop.count-1].p_name}</td>
+                <td>${recruits.r_education}</td>
+                <td>${recruits.r_peopleNumber}人</td>
+                <td>${recruits.r_salary}元</td>
+                <td>${recruits.r_workExperience}年</td>
+                <td>${recruits.r_workplace}</td>
+                <td>${recruits.r_date}</td>
+                </tr>
+            </c:forEach>
         </table>
     </form>
 </fieldset>

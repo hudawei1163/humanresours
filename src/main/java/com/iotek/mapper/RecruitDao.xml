@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.RecruitDao">
-    <insert id="addRecruit"></insert>
-    <update id="updateRecruit"></update>
-    <delete id="deleteRecruit"></delete>
-    <select id="queryAllRecruit" resultType="com.iotek.model.Recruit"></select>
-    <select id="queryRecruit" resultType="com.iotek.model.Recruit"></select>
+    <insert id="addRecruit">
+        INSERT INTO T_RECRUIT(R_ID,P_ID,R_WORKEXPERIENCE,R_EDUCATION,R_PEOPLENUMBER,R_WORKPLACE,R_SALARY,R_DATE)
+        VALUES (SEQ_R_ID.nextval,#{p_id},#{r_workExperience},#{r_education},#{r_peopleNumber},#{r_workplace},#{r_salary},#{r_date})
+    </insert>
+    <update id="updateRecruit">
+        UPDATE T_RECRUIT
+        <set>
+            <if test="p_id!=null">
+                P_ID=#{p_id},
+            </if>
+            <if test="r_workExperience!=null">
+                R_WORKEXPERIENCE=#{r_workExperience},
+            </if>
+            <if test="r_education!=null">
+                R_EDUCATION=#{r_education},
+            </if>
+            <if test="r_peopleNumber!=null">
+                R_PEOPLENUMBER=#{r_peopleNumber},
+            </if>
+            <if test="r_workplace!=null">
+                R_WORKPLACE=#{r_workplace},
+            </if>
+            <if test="r_salary!=null">
+                R_SALARY=#{r_salary},
+            </if>
+            <if test="r_date!=null">
+                R_DATE=#{r_date},
+            </if>
+        </set>
+        WHERE R_ID=#{r_id}
+    </update>
+    <delete id="deleteRecruit">
+        DELETE FROM T_RECRUIT WHERE R_ID=#{r_id}
+    </delete>
+    <select id="queryAllRecruit" resultType="com.iotek.model.Recruit">
+      SELECT * FROM T_RECRUIT
+    </select>
+    <select id="queryRecruit" resultType="com.iotek.model.Recruit">
+        SELECT * FROM T_RECRUIT WHERE R_ID=#{r_id}
+    </select>
 </mapper>

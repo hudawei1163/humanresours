@@ -16,12 +16,15 @@
     <title>填写简历</title>
 </head>
 <body>
-<a href="../../index.jsp">首页</a>
 <div style="padding-top: 5%;padding-left: 35%;padding-right: 35%">
     <fieldset style="padding-left: 20%;background: yellow">
         <legend>个人简历</legend><br/>
-        <form action="writerResumeServlet" method="post">
+        <form action="addResumeServlet" method="post">
             <table>
+                <tr>
+                    <td>简　　历:</td>
+                    <td><input type="text" name="r_name" id="r_name"/></td>
+                </tr>
                 <tr>
                     <td>姓　　名:</td>
                     <td><input type="text" name="u_name" id="u_name"/></td>
@@ -33,8 +36,8 @@
                 <tr>
                     <td>性　　别:</td>
                     <td>
-                        <input type="radio" name="r_sex" id="nan"/>男　　　
-                        <input type="radio" name="r_sex" id="nv"/>女
+                        <input type="radio" name="r_sex" id="nan" value="男"/>男　　　
+                        <input type="radio" name="r_sex" id="nv" value="女"/>女
                     </td>
                 </tr>
                 <tr>
@@ -88,6 +91,12 @@
                     <td>
                         <input type="text" name="r_workExperience" id="r_workExperience"/>
                     </td>
+                </tr>
+                <tr>
+                    <td style="color: red">
+                    ${requestScope.msg}
+                    </td>
+                    <td><a href="user">返回</a></td>
                 </tr>
                 <tr>
                     <td></td>

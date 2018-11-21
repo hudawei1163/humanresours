@@ -36,7 +36,14 @@ public class CultivateServiceImpl implements CultivateService {
     }
 
     @Override
-    public Cultivate queryCultivate(Cultivate cultivate) {
-        return cultivateDao.queryCultivate(cultivate);
+    public List<Cultivate> queryAllStaffCultivate(int s_id) {
+        return cultivateDao.queryAllStaffCultivate(s_id);
     }
+
+    @Override
+    public Cultivate queryCultivate(int c_id) {
+        return cultivateDao.queryCultivate(c_id);
+    }
+
+
 }

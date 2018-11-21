@@ -12,5 +12,7 @@ public interface PositionDao {
     boolean updatePosition(Position position);
     boolean deletePosition(Position position);
     List<Position> queryAllPosition();
-    Position queryPosition(Position position);
+    Position queryPosition(String p_name);
+    Position queryPositionById(int p_id);
+    List<Position> queryAllPositionByDid(int d_id);
 }

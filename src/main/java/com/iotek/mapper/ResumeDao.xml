@@ -1,13 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.iotek.dao.ResumeDao">
-    <insert id="addResume"></insert>
-    <update id="updateResume"></update>
-    <delete id="deleteResume"></delete>
-    <select id="queryAllResume" resultType="com.iotek.model.Resume"></select>
-    <select id="queryResumeById" resultType="com.iotek.model.Resume"></select>
-    <select id="queryResumeByName" resultType="com.iotek.model.Resume"></select>
-    <select id="queryAllResumeByName" resultType="com.iotek.model.Resume"></select>
+    <insert id="addResume">
+    INSERT INTO T_RESUME(R_ID,U_ID,R_NAME,U_NAME,R_EDUCATION,R_SEX,R_BIRTHPLACE,R_PHONE,R_MAIL,R_BIRTHDATE,R_STATUS,R_IDNUMBER,R_ABODE,R_JOBINTENTION,R_WORKEXPERIENCE,R_DELIVER)
+    VALUES (SEQW_R_ID.nextval,#{u_id},#{r_name},#{u_name},#{r_education},#{r_sex},#{r_birthplace},#{r_phone},
+    #{r_mail},#{r_birthdate},#{r_status},#{r_idNumber},#{r_abode},#{r_jobIntention},#{r_workExperience},#{r_deliver})
+    </insert>
+    <update id="updateResume">
+        UPDATE T_RESUME
+        <set>
+            <if test="r_name!=null">
+                R_NAME=#{r_name},
+            </if>
+            <if test="u_name!=null">
+                U_NAME=#{u_name},
+            </if>
+            <if test="r_education!=null">
+                R_EDUCATION=#{r_education},
+            </if>
+            <if test="r_sex!=null">
+                R_SEX=#{r_sex},
+            </if>
+            <if test="r_birthplace!=null">
+                R_BIRTHPLACE=#{r_birthplace},
+            </if>
+            <if test="r_phone!=null">
+                R_PHONE=#{r_phone},
+            </if>
+            <if test="r_mail!=null">
+                R_MAIL=#{r_mail},
+            </if>
+            <if test="r_birthdate!=null">
+                R_BIRTHDATE=#{r_birthdate},
+            </if>
+            <if test="r_status!=null">
+                R_STATUS=#{r_status},
+            </if>
+            <if test="r_idNumber!=null">
+                R_IDNUMBER=#{r_idNumber},
+            </if>
+            <if test="r_abode!=null">
+                R_ABODE=#{r_abode},
+            </if>
+            <if test="r_jobIntention!=null">
+                R_JOBINTENTION=#{r_jobIntention},
+            </if>
+            <if test="r_workExperience!=null">
+                R_WORKEXPERIENCE=#{r_workExperience},
+            </if>
+            <if test="r_deliver!=null">
+                R_DELIVER=#{r_deliver},
+            </if>
+        </set>
+        WHERE R_ID=#{r_id}
+    </update>
+    <delete id="deleteResume">
+        DELETE FROM T_RESUME WHERE R_ID=#{r_id}
+    </delete>
+    <select id="queryAllResume" resultType="com.iotek.model.Resume">
+        SELECT * FROM T_RESUME
+    </select>
+    <select id="queryResumeById" resultType="com.iotek.model.Resume">
+        SELECT * FROM T_RESUME WHERE R_ID=#{r_id}
+    </select>
+    <select id="queryResumeByName" resultType="com.iotek.model.Resume">
+
+    </select>
+    <select id="queryAllResumeById" resultType="com.iotek.model.Resume">
+        SELECT * FROM T_RESUME WHERE U_ID=#{u_id}
+    </select>
 
 
 </mapper>
